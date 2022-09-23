@@ -1,6 +1,6 @@
 import React from "react";
 import TopNav from "../components/TopNav/TopNav";
-import Footer from "../components/Footer/Footer";
+import Footer2 from "../components/Footer2/Footer2";
 import Info from "../components/Info/Info";
 
 export default function InfoScreen() {
@@ -8,7 +8,7 @@ export default function InfoScreen() {
     <div>
       <TopNav />
       <Info />
-      <Footer />
+      <Footer2 />
     </div>
   );
 }

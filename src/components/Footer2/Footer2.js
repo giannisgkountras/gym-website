@@ -1,5 +1,5 @@
 import React from "react";
-import "./Footer.css";
+import "./Footer2.css";
 import { FaPhone, FaMapMarker } from "react-icons/fa";
 import { MdOutlineEmail } from "react-icons/md";
 import { BsHouse } from "react-icons/bs";
@@ -8,7 +8,7 @@ import fb from "../../assets/fb.webp";
 
 export default function Footer() {
   return (
-    <div className="footer-container">
+    <div className="footer-container2">
       <div className="footer-items-container">
         <div className="footer-section">
           <ul>

@@ -1,8 +1,71 @@
 .info-talos-container{
     width: 100%;
-    height: 100vh;
+    height: 170vh;
+    
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: aqua;
+    background-color: rgba(0, 0, 0, 0.387);
+    background-image: url('../../assets/talos-background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.details-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.details-container p{
+    color: white;
+    font-size: 20px;   
+}
+
+.paragraph{
+    width: 500px;
+}
+
+
+.program-img{
+   margin-top: 2rem;
+} 
+
+.background-white{
+    background-color: rgba(84, 84, 84, 0.408);
+    width: 80%;
+    height: max-content;
+    padding: 3rem;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-info{
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    border-bottom: 1px solid white;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.prosfores{
+    margin-top: 2rem;
+    padding-bottom: 5rem;
+}
+
+.prosfores a{
+    text-decoration: none;
+    color: white;
+}
+
+.prosfores a:hover {
+    color: red;
 }

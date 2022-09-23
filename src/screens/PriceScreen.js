@@ -1,6 +1,6 @@
 import React from "react";
 import TopNav from "../components/TopNav/TopNav";
-import Footer from "../components/Footer/Footer";
+import Footer2 from "../components/Footer2/Footer2";
 import PriceInfo from "../components/PriceInfo/PriceInfo";
 
 export default function PriceScreen() {
@@ -8,7 +8,7 @@ export default function PriceScreen() {
     <div>
       <TopNav />
       <PriceInfo />
-      <Footer />
+      <Footer2 />
     </div>
   );
 }
