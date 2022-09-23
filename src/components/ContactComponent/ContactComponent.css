@@ -70,10 +70,11 @@ label{
 .form-element{
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: fit-content;
     justify-content: center;
     align-items: flex-start;
-    margin-bottom: 2rem;
+    margin: 0;
+    /* margin-bottom: 2rem; */
 }
 
 #no-under{
@@ -163,4 +164,31 @@ label{
 
 .submit-btn:active {
     opacity: 0.5;
+}
+
+@media only screen and (max-width: 1200px) {
+    .contact-container{
+        height: fit-content;
+    }
+
+    input{
+        width: 200px;
+    }
+
+    input::placeholder{
+        font-size: 18px;
+    }
+
+    .title-contact{
+        font-size: 30px;
+        text-align: center;
+    }
+    #message{
+        width: 200px;
+    }
+
+    .form{
+        margin-top: 5rem;
+        margin-bottom: 2rem;
+    }
 }
