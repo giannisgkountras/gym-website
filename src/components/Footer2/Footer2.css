@@ -18,6 +18,7 @@
     justify-content: space-between;
     align-items: center;
     width: 100%;
+    
 }
 
 .footer-section{
@@ -78,6 +79,8 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        height: fit-content;
+        margin-top: 6rem;
     }
 
     .footer-section li{

@@ -31,10 +31,16 @@ export default function Info() {
 
           <img className="program-img" alt="program" src={program} width={"1000"} />
           <div className="title prosfores">
-            <a href="/pricing">Δείτε εδώ τις χειμερινές μας προσφορές</a>
+            <a href="/pricing">
+              Δείτε{" "}
+              <a href="/pricing" id="edo">
+                εδώ
+              </a>{" "}
+              τις χειμερινές μας προσφορές
+            </a>
           </div>
           <div className="details-container">
-            <p>Για οποιαδήποτε ερώτηση, είμαστε στη δίαθεση σου!</p>
+            <p className="erotisi">Για οποιαδήποτε ερώτηση, είμαστε στη δίαθεση σου!</p>
           </div>
         </div>
       </div>
