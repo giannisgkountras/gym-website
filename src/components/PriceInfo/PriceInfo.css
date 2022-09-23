@@ -1,0 +1,181 @@
+.price-info-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgb(57, 57, 57); */
+    background-image: url('../../assets/talos-background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.pricing-container{
+    background-color: #b8b8b86d;
+    height: 70%;
+    width: 80%;
+    margin-bottom: 9rem;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.title{
+    font-size: 50px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.prices{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.price{
+    background-color: rgba(255, 255, 255, 0.5);
+    height: 400px;
+    width: 300px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    transition: 0.5s;
+}
+
+.price:hover{
+    margin-bottom: 1rem;
+    background-color: #fff;
+}
+
+.price-name{
+    font-size: x-large;
+    font-weight: 600;
+    text-align: center;
+    line-height: 5px;
+    margin-top: 1rem;
+}
+
+.price-name p{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.money-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.money{
+    font-size: 50px;
+}
+
+.perks ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0 1rem;
+}
+
+.perks ul li:before {
+    content: '✓ ';
+}
+
+#not-available:before  {
+    content: '✖ ';
+}
+
+.perks li{
+    margin-top: 0.5rem;
+}
+
+#not-available{
+    text-decoration: line-through;
+    opacity: 0.2;
+    
+}
+
+
+
+
+.button-28 {
+    appearance: none;
+    background-color: transparent;
+    border: 2px solid #1A1A1A;
+    border-radius: 15px;
+    box-sizing: border-box;
+    /* color: #3B3B3B; */
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Roobert, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0 1rem;
+    min-height: 60px;
+    min-width: 0;
+    outline: none;
+    padding: 16px 24px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: 10%;
+    will-change: transform;
+}
+
+.button-28:disabled {
+    pointer-events: none;
+}
+
+.button-28:hover {
+    color: #fff;
+    background-color: #1A1A1A;
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-2px);
+}
+
+.button-28:active {
+    box-shadow: none;
+    transform: translateY(0);
+}
+
+.buttons{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+.info-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../../assets/talos-background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}

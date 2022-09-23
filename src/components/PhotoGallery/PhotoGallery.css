@@ -1,0 +1,9 @@
+.gallery-container{
+    background-color: rgb(14, 14, 14);
+    height: 125vh;
+    background-attachment: fixed;
+}
+
+.photos{
+    padding: 5rem 10rem;
+}
