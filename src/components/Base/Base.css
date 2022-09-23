@@ -119,3 +119,14 @@
 .button-57:active{
     opacity: 0.5;
 }
+
+@media only screen and (max-width: 786px) {
+    .talos{
+        width:350px
+    }
+
+    .button-57{
+        scale: 0.8;
+        font-size: 25px;
+    }
+}

@@ -71,3 +71,28 @@
 .a-row p{
     margin-right: 1rem;
 }
+
+@media only screen and (max-width: 786px) {
+
+    .footer-items-container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer-section li{
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        font-size: 14px;
+    }
+    .footer-section ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer-container{
+        height: fit-content;
+    }
+
+}
