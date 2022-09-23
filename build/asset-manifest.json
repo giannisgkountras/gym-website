@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.becbc739.css",
+    "main.css": "/static/css/main.ebff340b.css",
     "main.js": "/static/js/main.462b3a9f.js",
     "static/js/787.c837b1d3.chunk.js": "/static/js/787.c837b1d3.chunk.js",
     "static/media/talos.png": "/static/media/talos.a25198d79ddd3d17e447.png",
@@ -11,12 +11,12 @@
     "static/media/talos-background.jpg": "/static/media/talos-background.49e5b29de04d4f23e568.jpg",
     "static/media/fb.webp": "/static/media/fb.653aaea73c47ffae127a.webp",
     "index.html": "/index.html",
-    "main.becbc739.css.map": "/static/css/main.becbc739.css.map",
+    "main.ebff340b.css.map": "/static/css/main.ebff340b.css.map",
     "main.462b3a9f.js.map": "/static/js/main.462b3a9f.js.map",
     "787.c837b1d3.chunk.js.map": "/static/js/787.c837b1d3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.becbc739.css",
+    "static/css/main.ebff340b.css",
     "static/js/main.462b3a9f.js"
   ]
 }
