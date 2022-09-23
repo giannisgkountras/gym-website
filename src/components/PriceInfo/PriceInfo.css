@@ -46,6 +46,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 100%;
     padding: 1rem;
     transition: 0.5s;
 }
@@ -64,8 +65,8 @@
 }
 
 .price-name p{
-    font-size: 18px;
-    font-weight: 400;
+    font-size: 18px !important;
+    font-weight: 400  !important;
 }
 
 .money-container{
@@ -81,8 +82,8 @@
 
 .perks ul{
     list-style-type: none;
-    margin: 0;
-    padding: 0 1rem;
+    margin: 0 !important; 
+    padding: 0 1rem !important;
 }
 
 .perks ul li:before {
@@ -94,7 +95,8 @@
 }
 
 .perks li{
-    margin-top: 0.5rem;
+    margin-top: 0.5rem !important;
+    padding: 0;
 }
 
 #not-available{
@@ -109,6 +111,7 @@
 .button-28 {
     appearance: none;
     background-color: transparent;
+    z-index: 0;
     border: 2px solid #1A1A1A;
     border-radius: 15px;
     box-sizing: border-box;
@@ -178,4 +181,42 @@ a{
     background-size: cover;
     width: 100%;
     height: 100vh;
+}
+
+
+@media only screen and (max-width: 1200px) {
+    .prices{
+        flex-direction: column;
+    }
+
+    .price{
+        margin-bottom: 1rem;
+    }
+
+    .pricing-container{
+        background-color: transparent;
+        height: fit-content;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .price-info-container{
+        height: 100%;
+    }
+
+    .title{
+        font-size: 40px;
+        margin-top: 5rem;
+    }
+
+    .buttons{
+        flex-direction: column;
+        margin-bottom: 2rem;
+    }
+
+    .button-28{
+        width: 80%;
+        margin-bottom: 1rem;
+        background-color: rgb(80, 80, 80);
+    }
 }

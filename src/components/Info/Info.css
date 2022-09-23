@@ -73,7 +73,7 @@ html{
     text-decoration: underline;
 }
 
-.prosfores a:hover {
+.prosfores #edo:hover {
     color: red;
 }
 .details-container ul {
@@ -82,7 +82,7 @@ html{
 .erotisi{
     text-align: center;
 }
-@media only screen and (max-width: 786px) {
+@media only screen and (max-width: 1200px) {
     .program-img{
         width: 400px;
     }
