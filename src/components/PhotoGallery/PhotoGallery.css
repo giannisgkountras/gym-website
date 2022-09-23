@@ -7,3 +7,9 @@
 .photos{
     padding: 5rem 10rem;
 }
+
+@media only screen and (max-width: 786px) {
+    .photos{
+        padding: 2rem 2rem;
+    }
+}
