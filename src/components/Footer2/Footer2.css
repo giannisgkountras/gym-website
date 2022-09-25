@@ -46,7 +46,11 @@
 .logos:hover {
     opacity: 0.5;
 }
-
+.footer-section li {
+    margin: 0;
+    padding: 0;
+    width: fit-content;
+}
 
 #socials{
     text-align: center;
